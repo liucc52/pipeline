@@ -1,0 +1,26 @@
+pipeline:
+  name: sdf
+  identifier: sdf
+  projectIdentifier: thisisatest
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: casdf
+        identifier: casdf
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Email
+                  name: Email_1
+                  identifier: Email_1
+                  spec:
+                    to: liuchangcheng@huawei.com
+                    cc: ""
+                    subject: ccc
+                    body: ccc
+                  timeout: 10m
+        tags: {}
