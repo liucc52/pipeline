@@ -24,3 +24,22 @@ pipeline:
                     body: ccc
                   timeout: 10m
         tags: {}
+    - stage:
+        name: asdf
+        identifier: asdf
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Email
+                  name: Email_1
+                  identifier: Email_1
+                  spec:
+                    to: liuchangcheng@huawei.com
+                    cc: ""
+                    subject: ccc
+                    body: cc
+                  timeout: 10m
+        tags: {}
