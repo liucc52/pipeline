@@ -6,7 +6,7 @@ pipeline:
   tags: {}
   stages:
     - stage:
-        name: sdf
+        name: sdffd
         identifier: sdf
         description: ""
         type: Custom
