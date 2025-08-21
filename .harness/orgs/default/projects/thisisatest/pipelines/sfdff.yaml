@@ -16,7 +16,7 @@ pipeline:
               - step:
                   type: Email
                   name: Email_1
-                  identifier: Email_1
+                  identifier: Email_3333
                   spec:
                     to: liuchangcheng@huawei.com
                     cc: ""
